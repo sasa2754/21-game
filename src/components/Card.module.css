@@ -14,7 +14,17 @@
     background-repeat: no-repeat; 
     background-position: center; 
     box-shadow: 0 0 15px black;
+    position: relative;
 }
+
+
+.topleftimage {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px; 
+}
+
 
 .form
 {
@@ -30,6 +40,9 @@
     padding: 5px;
     margin: 10px;
     border: 0.5px solid;
+    background-color: var(--bgInput);
+    border: 0.1px solid var(--white);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3); 
 }
 
 .form button{
